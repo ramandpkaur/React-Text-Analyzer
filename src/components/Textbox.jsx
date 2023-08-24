@@ -34,8 +34,9 @@ const Textbox = () => {
 
       <h3>Text Analysis Report</h3>
       <p>Your text contains <b> {text.split(' ').length} words</b> and <b>{text.length} letters</b>.</p>
+      <br/><p>{Math.floor(text.split(' ').length / 200)} minutes read</p>
       <h3>Preview Text</h3>
-      <p>{text}</p>
+      <p><i>{text.length>0?text:'Preview your text here'}</i></p>
     </div>
   )
 }
