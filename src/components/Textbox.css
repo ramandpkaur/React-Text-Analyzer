@@ -1,0 +1,7 @@
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 10rem;
+  padding: 4rem 8rem;
+  height: 80vh;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
