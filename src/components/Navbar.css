@@ -9,8 +9,8 @@ nav {
 }
 
 nav > img {
-  width: 3rem;
-  height: 3rem;
+  width: 2.7rem;
+  height: 2.7rem;
   margin: 0 1rem 0 2rem;
 }
 nav > ul {
@@ -22,7 +22,7 @@ nav > ul {
 
 nav > ul > li {
   list-style-type: none;
-  margin: 1.5rem 2rem;
+  margin: 1.2rem 2rem;
   right: -10rem;
   color: rgba(255, 255, 255, 0.7);
 }

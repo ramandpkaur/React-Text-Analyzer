@@ -1,0 +1,36 @@
+.alert-box {
+  position: fixed;
+  border-radius: 3px;
+  width: 50vw;
+  height: auto;
+  padding:1rem;
+  vertical-align: middle;
+  top: 10vh;
+  right: 3vw;
+}
+
+.alert-success {
+  background-color: rgba(104, 249, 63, 0.6);
+  background-image: linear-gradient(rgba(104, 249, 63, 0.4), rgba(200, 255, 184));
+  color: green;
+  transition : 0.5s;
+
+}
+
+.alert-danger {
+  background-color: rgba(255, 88, 88, 0.6);
+  background-image: linear-gradient(rgba(255, 88, 88, 0.4), rgba(254, 222, 222, 0.6));
+  color: darkred;
+}
+
+.alert-warning { 
+  background-color: rgba(245, 245, 86, 0.6);
+  background-image: linear-gradient(rgba(245, 245, 86, 0.4), rgba(250, 250, 224, 0.6));
+  color: rgb(176, 126, 0);
+}
+
+.alert-primary {
+  background-color:  rgba(138, 195, 252, 0.6);
+  background-image: linear-gradient(rgba(138, 195, 252, 0.4), rgba(218, 234, 250, 0.6));
+  color: rgb(57, 141, 225);
+}
